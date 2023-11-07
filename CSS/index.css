@@ -3,8 +3,6 @@ body {
 }
 
 
-
-
 /* Jumbotron */
 .jumboCopy img {
   width: 200px;
@@ -33,6 +31,10 @@ body {
 
 .am-img {
   width: 400px !important;
+}
+
+.section-2 {
+  background-color: #012B5D;
 }
 
 
