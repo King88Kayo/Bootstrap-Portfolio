@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=VT323&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
@@ -15,7 +15,7 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-lg bg-navibar navbar-dark">
     <div class="container">
       <a href="" class="navbar-brand">KC: GOLIATH</a>
 
@@ -46,14 +46,14 @@
         <!-- <div class="row"> -->
           <img src="./images/KCG-profilepic.jfif" alt="">
           <h1 class="display-5 fw-bold">Kyle Goliath</h1>
-          <p class="col-md-12 fs-4">Developer, IT Support, Designer</p>
+          <p class="col-md-12 fs-4">Developer & IT Support</p>
       <!-- </div>   -->
       </div>
     </div>
 
     <!-- About Me -->
-    <section class="p-5 mb-5" id="about-me">
-      <div class="container-fluid  py-5 text-center">
+    <section class="p-5 mb-5 text-light bg-am" id="about-me">
+      <div class="container-fluid py-5 text-center">
         <h1>About Me</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eligendi incidunt, autem ut aliquid mollitia corrupti tempora ab rerum perspiciatis recusandae modi amet earum dolorum iure et nisi voluptate ipsa quas eum id neque labore. Odit, aperiam porro. Saepe incidunt minima nemo possimus dicta aliquid doloremque natus unde quaerat dolorum, ab pariatur. Eveniet quam harum cum consequuntur quos, maxime earum.</p>
       </div>
@@ -111,7 +111,7 @@
     
     
     <!-- My Work -->
-    <section id="my-work" class="p-5">
+    <section id="my-work" class="p-5 text-light bg-mw">
       <div class="container-fluid  py-5 text-center">
         <h1>My Work</h1>
         <p>Here I have provided links to my current projects.</p>
@@ -120,34 +120,40 @@
         <div class="row text-center g-4">
           <div class="col-md">
             <div class="card text-light">
-              <div class="card-body text-center rounded-2 card-1">
+              <div class="card-body text-center rounded-2 card-color">
                 <div class="h1 mb-3">
                   <i class="bi bi-code-slash"></i>
                 </div>
                 <div class="card-title mb-3">CodePen</div>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora reprehenderit veritatis rerum praesentium doloremque modi.</p>
+                <p class="card-text">Follow the link below.</p>
+                <a href="https://codepen.io/Kyle-Goliath" target="_blank" class="btn btn-light">Click Here</a>
               </div>
             </div>
           </div>
           <div class="col-md">
             <div class="card text-light">
-              <div class="card-body text-center rounded-2 card-2">
+              <div class="card-body text-center rounded-2 card-color">
                 <div class="h1 mb-3">
                   <i class="bi bi-github"></i>
                 </div>
                 <div class="card-title mb-3">Github</div>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora reprehenderit veritatis rerum praesentium doloremque modi.</p>
+                <p class="card-text">Follow the link below.</p>
+                <a href="https://github.com/King88Kayo" target="_blank" class="btn btn-light">Click Here</a>
               </div>
             </div>
           </div>
           <div class="col-md">
             <div class="card text-light">
-              <div class="card-body text-center rounded-2 card-3">
+              <div class="card-body text-center rounded-2 card-color">
                 <div class="h1 mb-3">
                   <i class="bi bi-laptop"></i>
                 </div>
                 <div class="card-title mb-3">Figma</div>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora reprehenderit veritatis rerum praesentium doloremque modi.</p>
+                <p class="card-text">Follow the link below.</p>
+                <a href="https://www.figma.com/file/onFdawdSVHFEzagDEUkJGe/KCG-Portfolio?type=design&node-id=0-1&mode=design&t=aqc6XEAmP6ams30K-0" target="_blank" class="btn btn-light">Click Here</a>
               </div>
             </div>
           </div>
@@ -155,10 +161,34 @@
       </div>
     </section>
 
+    <!-- Contact Me -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Location:</span> Bristol, UK
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Phone Number:</span> (+44) 0891 654 3210
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Email Address:</span> KC.Goliath@emailaddy.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer>
-
+  <!-- Footer -->
+  <footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">Copyright &copy; 2023 Kyle Goliath</p>
+    </div>
   </footer>
 </body>
 </html>
