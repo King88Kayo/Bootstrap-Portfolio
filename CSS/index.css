@@ -5,8 +5,50 @@ body {
 
 
 
+/* Jumbotron */
+.jumboCopy img {
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.jumboBG {
+  background-image: url(../images/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 1px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumboCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: #dddddd ;
+  text-align: center;
+}
+
+/* About Me */
+
+.am-img {
+  width: 400px !important;
+}
 
 
+/* My Work   */
+
+.card-1 {
+  background-color: #212529;
+}
+
+.card-2 {
+  background-color: #54277C;
+}
+
+.card-3 {
+  background-color: #212529;
+}
 
 
 
